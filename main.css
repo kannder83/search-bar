@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 150px;
+  background-color: #000;
+  font-family: sans-serif;
+}
+
+#search-box {
+  width: 50%;
+  margin: auto;
+}
+
+#search-box input,
+button {
+  width: 75%;
+  border: 2px solid white;
+  border-right: 0px;
+  font-size: 18px;
+  padding: 12px;
+  background: transparent;
+  color: white;
+}
+
+#search-box button {
+  width: 25%;
+  background: #eee;
+  color: black;
+  float: right;
+  border-left: 0;
+}
+
+#search-box button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#search-box input:hover {
+  opacity: 0.7;
+}
